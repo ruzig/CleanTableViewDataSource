@@ -45,5 +45,5 @@ The best way to get Kiwi is by using [CocoaPods](https://github.com/cocoapods/co
 Then, import it
 
 ```
-    #import <CleanTableViewDataSource.h>
+    #import <OAArrayDataSource.h>
 ```
