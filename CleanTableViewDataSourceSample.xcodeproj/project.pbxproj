@@ -20,6 +20,7 @@
 		17DE13331919D7CA008EB4BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DE13311919D7CA008EB4BC /* InfoPlist.strings */; };
 		17DE13351919D7CA008EB4BC /* CleanTableViewDataSourceSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DE13341919D7CA008EB4BC /* CleanTableViewDataSourceSampleTests.m */; };
 		17DE13401919D82C008EB4BC /* OANumberListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DE133F1919D82C008EB4BC /* OANumberListingViewController.m */; };
+		17DE134C1919E03D008EB4BC /* OAArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DE134B1919E03D008EB4BC /* OAArrayDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		17DE13341919D7CA008EB4BC /* CleanTableViewDataSourceSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleanTableViewDataSourceSampleTests.m; sourceTree = "<group>"; };
 		17DE133E1919D82C008EB4BC /* OANumberListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OANumberListingViewController.h; sourceTree = "<group>"; };
 		17DE133F1919D82C008EB4BC /* OANumberListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OANumberListingViewController.m; sourceTree = "<group>"; };
+		17DE134A1919E03D008EB4BC /* OAArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAArrayDataSource.h; sourceTree = "<group>"; };
+		17DE134B1919E03D008EB4BC /* OAArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAArrayDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 		17DE13031919D7C9008EB4BC = {
 			isa = PBXGroup;
 			children = (
+				17DE13491919E03D008EB4BC /* CleanTableViewDataSourceLib */,
 				17DE13151919D7CA008EB4BC /* CleanTableViewDataSourceSample */,
 				17DE132E1919D7CA008EB4BC /* CleanTableViewDataSourceSampleTests */,
 				17DE130E1919D7CA008EB4BC /* Frameworks */,
@@ -147,6 +151,15 @@
 				17DE13311919D7CA008EB4BC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17DE13491919E03D008EB4BC /* CleanTableViewDataSourceLib */ = {
+			isa = PBXGroup;
+			children = (
+				17DE134A1919E03D008EB4BC /* OAArrayDataSource.h */,
+				17DE134B1919E03D008EB4BC /* OAArrayDataSource.m */,
+			);
+			path = CleanTableViewDataSourceLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DE134C1919E03D008EB4BC /* OAArrayDataSource.m in Sources */,
 				17DE13201919D7CA008EB4BC /* OAAppDelegate.m in Sources */,
 				17DE131C1919D7CA008EB4BC /* main.m in Sources */,
 				17DE13401919D82C008EB4BC /* OANumberListingViewController.m in Sources */,
@@ -444,6 +458,7 @@
 				17DE133A1919D7CA008EB4BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DE133B1919D7CA008EB4BC /* Build configuration list for PBXNativeTarget "CleanTableViewDataSourceSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +467,7 @@
 				17DE133D1919D7CA008EB4BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
