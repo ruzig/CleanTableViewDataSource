@@ -18,10 +18,11 @@ Just init an instance of OAArrayDataSource and pass it to yourtableview.datasour
         //Depend on item data, return the right cell identifier here.
         return kNumberCellIdentifier;
     };
-    OAArrayDataSource *arrayDataSource = [[OAArrayDataSource alloc] initWithItems:self.numbers
+    //Remember to define @property (strong, nonatomic) OAArrayDataSource *arrayDataSource
+    self.arrayDataSource = [[OAArrayDataSource alloc] initWithItems:self.numbers
                                           identifierParserBlock:identifierParserBlock
                                              configureCellBlock:configureCell];
-    self.yourTableView.datasource = arrayDataSource;
+    self.yourTableView.dataSource = arrayDataSource;
 ```
 To customize the cell, feel free to subclass OAArrayDataSource and override the method: 
 ```Objective-C
