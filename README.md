@@ -42,4 +42,8 @@ The best way to get Kiwi is by using [CocoaPods](https://github.com/cocoapods/co
 ```
   pod 'CleanTableViewDataSource'
 ```
+Then, import it
 
+```
+    #import <CleanTableViewDataSource.h>
+```
