@@ -39,7 +39,7 @@ To customize the cell, feel free to subclass OAArrayDataSource and override the 
 Getting it
 ==========
 
-The best way to get Kiwi is by using [CocoaPods](https://github.com/cocoapods/cocoapods).
+The best way to get CleanTableViewDataSource is by using [CocoaPods](https://github.com/cocoapods/cocoapods).
 ```
   pod 'CleanTableViewDataSource'
 ```
