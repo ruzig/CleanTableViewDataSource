@@ -48,3 +48,8 @@ Then, import it
 ```
     #import <OAArrayDataSource.h>
 ```
+
+Contact
+=======
+
+Follow me on Twitter: [@ltanphat](https://twitter.com/ltanphat)
