@@ -10,7 +10,6 @@
 
 @interface OAArrayDataSource()
 
-@property (strong, nonatomic) NSArray *items;
 @property (strong, nonatomic) IdentifierParserBlock identifierParserBlock;
 @property (strong, nonatomic) TableViewCellConfigureBlock configureCellBlock;
 

@@ -13,6 +13,8 @@ typedef NSString * (^IdentifierParserBlock)(id item);
 
 @interface OAArrayDataSource : NSObject<UITableViewDataSource>
 
+@property (strong, nonatomic) NSArray *items;
+
 - (id)initWithItems  :(NSArray *)items
 identifierParserBlock:(IdentifierParserBlock)parserBlock
  configureCellBlock  :(TableViewCellConfigureBlock)configureCellBlock;
